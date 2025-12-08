@@ -1,8 +1,8 @@
 {
   "name": "Tec CEM",
   "short_name": "Tec CEM",
-  "background_color": "#6C1D45", 
-  "theme_color": "#6C1D45",
+  "background_color": "#0055ff", 
+  "theme_color": "#0055ff",
   "orientation": "portrait",
   "display": "standalone",
   "start_url": "./?utm_source=web_app_manifest",
