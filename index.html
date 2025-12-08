@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- Clase Muestra 08 de Diciembre-->
+<html lang="es">
+  <head>
+    <!-- Metadatos Esenciales -->
+    <meta charset="UTF-8">
+    <!--PWA-->
+    <link rel="manifest" href="./manifest.json"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PWA Para Clase Muestra</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <h2 class="logo"><a href="#">Tec CEM</a></h2>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" id="hamburger-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+            <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </label>
+        <ul class="links__menu">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Acerca De</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+        <div class="botones">
+          <a href="#" class="signin">Ingresa</a>
+          <a href="#" class="signup">Regístrate</a>
+        </div>
+      </nav>
+    </header>
+    <section class="hero-section">
+      <div class="hero">
+        <h2>PWA</h2>
+        <p>
+            Una Aplicación Web Progresiva (PWA) es una experiencia web que imita a una aplicación nativa.
+        </p>
+        <div class="botones">
+          <a href="#" class="join">Vamos</a>
+          <a href="#" class="learn">Ver Más</a>
+        </div>
+      </div>
+      <div class="img">
+        <img src="https://tec.mx/sites/default/files/styles/16_9/public/repositorio/Campus/Estado%20de%20M%C3%A9xico/cedetec_campus-estado-de-mexico.webp?h=920929c4&itok=vOXI5Pjy" alt="hero image" />
+      </div>
+    </section>
+    <!-- PWA -->
+    <script src="./script.js"></script>
+  </body>
+</html>
